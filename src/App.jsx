@@ -1,14 +1,11 @@
-import AllCreditor from "./components/AllCreditor";
+
+import Form from "./components/Form";
 
 function App() {
-  const theme = {
-    backgroundColor: "black",
-    color: "pink",
-  };
 
   return (
-    <div style={theme}>
-      <AllCreditor />
+    <div >
+        <Form/>
     </div>
   );
 }
